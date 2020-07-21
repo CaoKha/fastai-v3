@@ -9,10 +9,18 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1U0z_nPh9tvg7XgZq7OhOznVSe8_WqoeM'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Agrostemma-githago_Cotyledon',
+           'Agrostemma-githago_Foliage',
+           'Agrostemma-githago_Intermediate',
+           'Beta-vulgaris_Cotyledon',
+           'Beta-vulgaris_Foliage',
+           'Beta-vulgaris_Intermediate',
+           'Crepis-setosa_Cotyledon',
+           'Crepis-setosa_Foliage',
+           'Crepis-setosa_Intermediate']
 path = Path(__file__).parent
 
 app = Starlette()
