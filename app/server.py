@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1U0z_nPh9tvg7XgZq7OhOznVSe8_WqoeM'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1M6-_lN7MAdpXzfyELHMlftAwyf51Fxlm'
 export_file_name = 'export.pkl'
 
 classes = ['Agrostemma-githago_Cotyledon',
