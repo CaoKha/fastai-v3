@@ -12,7 +12,15 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/uc?export=download&id=1U0z_nPh9tvg7XgZq7OhOznVSe8_WqoeM'
 export_file_name = 'export.pkl'
 
-classes = ['Agrostemma-githago_Cotyledon','Agrostemma-githago_Foliage','Agrostemma-githago_Intermediate','Beta-vulgaris_Cotyledon','Beta-vulgaris_Foliage','Beta-vulgaris_Intermediate','Crepis-setosa_Cotyledon','Crepis-setosa_Foliage','Crepis-setosa_Intermediate']
+classes = ['Agrostemma-githago_Cotyledon',
+           'Agrostemma-githago_Foliage',
+           'Agrostemma-githago_Intermediate',
+           'Beta-vulgaris_Cotyledon',
+           'Beta-vulgaris_Foliage',
+           'Beta-vulgaris_Intermediate',
+           'Crepis-setosa_Cotyledon',
+           'Crepis-setosa_Foliage',
+           'Crepis-setosa_Intermediate']
 path = Path(__file__).parent
 
 app = Starlette()
